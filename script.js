@@ -6,17 +6,38 @@ const textoresultado = document.queryselector(".texto-resultado");
 
 const perguntas = [
     {
-    enunciado: "pergunta 1",
+    enunciado: "Qual é a principal função da química no tratamento da água?",
     alternativas: [
-        "alternativa 1", 
-        "alternativa 2"
+        "Remover impurezas e microrganismos.", 
+        "Aumentar a quantidade de sujeira na água."
     ] 
 },
 {
-    enunciado: "pergunta 1",
+    enunciado: "Qual produto pode ser usado para desinfetar a água?",
     alternativas: [
-        "alternativa 1", 
-        "alternativa 2"
+        "Cloro.", 
+        "Óleo."
+    ] 
+},
+{
+    enunciado: "A coagulação no tratamento da água serve para:",
+    alternativas: [
+        "Juntar partículas pequenas para facilitar sua remoção.", 
+        "Adicionar mais partículas à água."
+    ] 
+},
+{
+    enunciado: "Por que a água precisa ser filtrada?",
+    alternativas: [
+        "Para retirar partículas e impurezas.", 
+        "Para deixá-la mais salgada."
+    ] 
+},
+{
+    enunciado: "O tratamento da água é importante porque:",
+    alternativas: [
+        "Ajuda a tornar a água adequada para o consumo.", 
+        "Aumenta a quantidade de microrganismos presentes na água."
     ] 
 }
 ];
