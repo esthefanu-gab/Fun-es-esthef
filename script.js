@@ -8,6 +8,9 @@ const perguntas = [
     {
     enunciado: "Qual é a principal função da química no tratamento da água?",
     alternativas: [
+        {
+            
+        }
         "Remover impurezas e microrganismos.", 
         "Aumentar a quantidade de sujeira na água."
     ] 
