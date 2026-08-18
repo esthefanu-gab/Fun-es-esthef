@@ -9,39 +9,66 @@ const perguntas = [
     enunciado: "Qual é a principal função da química no tratamento da água?",
     alternativas: [
         {
-            
-        }
-        "Remover impurezas e microrganismos.", 
-        "Aumentar a quantidade de sujeira na água."
-    ] 
+          texto: "Remover impurezas e microrganismos.", 
+          afirmacao: "afirmacao" 
+        },
+    {
+        texto:"Aumentar a quantidade de sujeira na água."
+        afirmacao: "afirmacao"
+    }
+ ] 
 },
 {
     enunciado: "Qual produto pode ser usado para desinfetar a água?",
     alternativas: [
-        "Cloro.", 
-        "Óleo."
-    ] 
+    {
+        texto: "Cloro.", 
+        afirmacao: "afirmacao"
+    },
+    {
+        texto:"Óleo."
+        afirmacao: "afirmacao"
+    }
+ ] 
 },
 {
     enunciado: "A coagulação no tratamento da água serve para:",
     alternativas: [
-        "Juntar partículas pequenas para facilitar sua remoção.", 
-        "Adicionar mais partículas à água."
-    ] 
+        {
+            texto:"Juntar partículas pequenas para facilitar sua remoção.", 
+            afirmacao: "afirmacao"
+        },
+        {
+            texto: "Adicionar mais partículas à água."
+            afirmacao: "afirmacao"
+        }
+ ] 
 },
 {
     enunciado: "Por que a água precisa ser filtrada?",
     alternativas: [
-        "Para retirar partículas e impurezas.", 
-        "Para deixá-la mais salgada."
-    ] 
+        {
+            texto:"Para retirar partículas e impurezas.", 
+            afirmacao: "afirmacao"
+        },
+        {
+            texto:"Para deixá-la mais salgada."
+            afirmacao: "afirmacao"
+        }
+ ] 
 },
 {
     enunciado: "O tratamento da água é importante porque:",
     alternativas: [
-        "Ajuda a tornar a água adequada para o consumo.", 
-        "Aumenta a quantidade de microrganismos presentes na água."
-    ] 
+        {
+            texto:"Ajuda a tornar a água adequada para o consumo.", 
+            afirmacao: "afirmacao"
+        },
+        {
+            texto:"Aumenta a quantidade de microrganismos presentes na água."
+            afirmacao: "afirmacao"
+        }
+ ] 
 }
 ];
 
