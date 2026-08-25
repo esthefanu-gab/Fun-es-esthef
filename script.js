@@ -69,8 +69,9 @@ const perguntas = [
             afirmacao: "afirmacao"
         }
  ] 
-}
+},
 ];
+
 
 let atual = 0;
 let perguntaAtual;
@@ -78,6 +79,15 @@ let perguntaAtual;
 function mostrapergunta() {
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textcontent = perguntaAtual.enunciado;
+    mostraAlternativas();
+}
+
+function mostraAlternativas(){
+    for(const alternativa of perguntaAtual.alternativas) {
+        const botaoAlternativa = document.createElement("button");
+        botaoAlternativa.textcontent = alternativa.texto;
+        caixaAlternativas.appendchild(botaoAlternativa);
+    }
 }
 
 mostraPergunta();
